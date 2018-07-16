@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/first_fifth" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:layout_constraintGuide_percent="0.2" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/second_fifth" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n3:layout_constraintGuide_percent="0.4" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/third_fifth" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:layout_constraintGuide_percent="0.6" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/forth_fifth" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:layout_constraintGuide_percent="0.8" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/midline" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:layout_constraintGuide_percent="0.5" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guidline_library_text_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n7:layout_constraintGuide_percent="0.52" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+S
+    <android.support.constraint.Guideline xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/guideline_base1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_base3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n9:layout_constraintGuide_percent="-0.05" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_base3_2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n10:layout_constraintGuide_percent="0.86" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_base2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n11:layout_constraintGuide_percent="0.9" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_base_switch" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n12:layout_constraintGuide_percent="0.85" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline1_2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n13:layout_constraintGuide_percent="0.24" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n14:layout_constraintGuide_percent="0.35" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_connector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n15:layout_constraintGuide_percent="0.15" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/flash_right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n16:layout_constraintGuide_percent="0.28" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_ver" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n17:layout_constraintGuide_percent="0.35" xmlns:n17="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_logo_right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n18:layout_constraintGuide_percent="0.45" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_ver_2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n19:layout_constraintGuide_percent="0.48" xmlns:n19="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n20:layout_constraintGuide_percent="0.65" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n21:layout_constraintGuide_percent="0.78" xmlns:n21="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_4_2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n22:layout_constraintGuide_percent="0.64" xmlns:n22="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n23:layout_constraintGuide_percent="0.38" xmlns:n23="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_flash_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n24:layout_constraintGuide_percent="0.25" xmlns:n24="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/switch_camera_top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n25:layout_constraintGuide_percent="0.02" xmlns:n25="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_botton_top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n26:layout_constraintGuide_percent="0.16" xmlns:n26="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_library_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n27:layout_constraintGuide_percent="0.45" xmlns:n27="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_library_top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n28:layout_constraintGuide_percent="0.3" xmlns:n28="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_button_botton" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n29:layout_constraintGuide_percent="0.4" xmlns:n29="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_logo_top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n30:layout_constraintGuide_percent="0.6" xmlns:n30="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_botton_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n31:layout_constraintGuide_percent="0.68" xmlns:n31="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/imageButton_background" n1:background="@android:color/transparent" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:scaleType="centerInside" n32:layout_constraintBottom_toTopOf="@id/guideline_button_botton" n32:layout_constraintHeight_default="wrap" n32:layout_constraintLeft_toLeftOf="@id/guideline_botton_left" n32:layout_constraintRight_toLeftOf="@id/guideline_base2" n32:layout_constraintTop_toTopOf="@id/guideline_botton_top" n32:layout_constraintWidth_default="wrap" n32:srcCompat="@drawable/shutter_button_frame" xmlns:n32="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_flash" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n33:layout_constraintGuide_percent="0.98" xmlns:n33="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_rs" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n34:layout_constraintGuide_percent="0.72" xmlns:n34="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_rs2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n35:layout_constraintGuide_percent="0.87" xmlns:n35="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guidline_flash_top" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n36:layout_constraintGuide_percent="0.9" xmlns:n36="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_middle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n37:layout_constraintGuide_percent="0.55" xmlns:n37="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_date_stamp_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n38:layout_constraintGuide_percent="0.19" xmlns:n38="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_date_stamp_right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n39:layout_constraintGuide_percent="0.38" xmlns:n39="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n40:layout_constraintGuide_percent="0.82" xmlns:n40="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="horizontal" n1:id="@id/guideline_rs_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n41:layout_constraintGuide_percent="0.95" xmlns:n41="http://schemas.android.com/apk/res-auto" />
+
+
+
+    <android.support.constraint.Guideline xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/guideline_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <TextView n1:textSize="@dimen/text_size" n1:textStyle="bold" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:layout_marginLeft="@dimen/marLeft" n1:text="@string/by_ginnypix" n1:inputType="textMultiLine" n1:layout_marginStart="@dimen/marLeft" n43:layout_constraintBottom_toTopOf="@id/guideline_rs_bottom" n43:layout_constraintHeight_default="spread" n43:layout_constraintLeft_toLeftOf="@id/guideline_label_left" n43:layout_constraintRight_toLeftOf="@id/guideline_botton_left" n43:layout_constraintTop_toTopOf="@id/guideline_text" n43:layout_constraintWidth_default="spread" xmlns:n43="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_label_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n44:layout_constraintGuide_percent="0.15" xmlns:n44="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_library_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n45:layout_constraintGuide_percent="0.22" xmlns:n45="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/color_theme" n1:padding="10.0dip" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:layout_marginLeft="@dimen/marLeft" n1:src="@drawable/the_button" n1:layout_marginStart="@dimen/marLeft" n46:layout_constraintBottom_toTopOf="@id/guideline_middle" n46:layout_constraintHeight_default="wrap" n46:layout_constraintLeft_toLeftOf="parent" n46:layout_constraintRight_toLeftOf="@id/guideline_base1" n46:layout_constraintTop_toTopOf="@id/guideline_button_botton" n46:layout_constraintWidth_default="wrap" xmlns:n46="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/logo" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:layout_marginLeft="@dimen/marLeft" n1:src="@drawable/logo" n1:layout_marginStart="@dimen/marLeft" n47:layout_constraintBottom_toTopOf="@id/guideline_rs2" n47:layout_constraintHeight_default="wrap" n47:layout_constraintLeft_toLeftOf="@id/guideline_label_left" n47:layout_constraintRight_toLeftOf="@id/guideline_logo_right" n47:layout_constraintTop_toTopOf="@id/guideline_logo_top" n47:layout_constraintWidth_default="wrap" xmlns:n47="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:textSize="@dimen/text_size" n1:gravity="left" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:src="@drawable/gallery_button" n1:text="@string/library_label" n48:layout_constraintBottom_toTopOf="@id/guidline_library_text_bottom" n48:layout_constraintHeight_default="wrap" n48:layout_constraintHorizontal_bias="0.25" n48:layout_constraintLeft_toLeftOf="@id/guideline_library_left" n48:layout_constraintRight_toLeftOf="@id/guideline_ver" n48:layout_constraintTop_toTopOf="@id/guideline_library_bottom" n48:layout_constraintWidth_default="wrap" xmlns:n48="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_setting_right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n49:layout_constraintGuide_percent="0.53" xmlns:n49="http://schemas.android.com/apk/res-auto" />
+
+
+    <android.support.constraint.Guideline xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/guideline_photo_button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_flash_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n51:layout_constraintGuide_percent="0.43" xmlns:n51="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_sound_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n52:layout_constraintGuide_percent="0.36" xmlns:n52="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_icons_2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n53:layout_constraintGuide_percent="0.445" xmlns:n53="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_icons_3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n54:layout_constraintGuide_percent="0.53" xmlns:n54="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_icons_4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n55:layout_constraintGuide_percent="0.605" xmlns:n55="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_connector_ver" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n56:layout_constraintGuide_percent="0.68" xmlns:n56="http://schemas.android.com/apk/res-auto" />
+    <android.support.constraint.Guideline n1:orientation="vertical" n1:id="@id/guideline_icons_6" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n57:layout_constraintGuide_percent="0.755" xmlns:n57="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/sound" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:src="@drawable/sound_off" n58:layout_constraintBottom_toTopOf="@id/guideline_middle" n58:layout_constraintHeight_default="wrap" n58:layout_constraintHorizontal_bias="0.0" n58:layout_constraintLeft_toLeftOf="@id/guideline_icons_3" n58:layout_constraintRight_toLeftOf="@id/guideline_icons_4" n58:layout_constraintTop_toTopOf="@id/guideline_button_botton" n58:layout_constraintVertical_bias="0.0" n58:layout_constraintWidth_default="wrap" xmlns:n58="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:id="@id/info" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:src="@drawable/safety_info" n59:layout_constraintBottom_toTopOf="@id/guideline_middle" n59:layout_constraintHeight_default="wrap" n59:layout_constraintHorizontal_bias="0.0" n59:layout_constraintLeft_toLeftOf="@id/guideline_icons_4" n59:layout_constraintRight_toLeftOf="@id/guideline_connector_ver" n59:layout_constraintTop_toTopOf="@id/guideline_button_botton" n59:layout_constraintVertical_bias="0.0" n59:layout_constraintWidth_default="wrap" xmlns:n59="http://schemas.android.com/apk/res-auto" />
+    <ImageView n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:src="@drawable/controls" n60:layout_constraintBottom_toTopOf="@id/guideline_middle" n60:layout_constraintHeight_default="wrap" n60:layout_constraintHorizontal_bias="0.0" n60:layout_constraintLeft_toLeftOf="@id/guideline_connector_ver" n60:layout_constraintRight_toLeftOf="@id/guideline_icons_6" n60:layout_constraintTop_toTopOf="@id/guideline_button_botton" n60:layout_constraintVertical_bias="0.0" n60:layout_constraintWidth_default="wrap" xmlns:n60="http://schemas.android.com/apk/res-auto" />
+    <View n1:id="@id/full_screen_background" n1:background="@color/colorDarkFrame" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <ImageView n1:id="@id/date_stamp" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n1:src="@drawable/datestamp_off" n61:layout_constraintBottom_toTopOf="@id/guideline_middle" n61:layout_constraintHeight_default="wrap" n61:layout_constraintHorizontal_bias="0.0" n61:layout_constraintLeft_toLeftOf="@id/guideline_sound_left" n61:layout_constraintRight_toLeftOf="@id/guideline_icons_2" n61:layout_constraintTop_toTopOf="@id/guideline_button_botton" n61:layout_constraintVertical_bias="0.0" n61:layout_constraintWidth_default="wrap" xmlns:n61="http://schemas.android.com/apk/res-auto" />
+
+
+    <com.google.android.cameraview.CameraView xmlns:myview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/viewport"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        myview:aspectRatio="4:3"
+        myview:autoFocus="true"
+        myview:facing="back"
+        myview:flash="off"
+        myview:layout_constraintDimensionRatio="3:4"
+        myview:layout_constraintHeight_default="spread"
+        myview:layout_constraintLeft_toLeftOf="parent"
+        myview:layout_constraintRight_toRightOf="parent"
+        myview:layout_constraintTop_toTopOf="parent"
+        myview:layout_constraintVertical_bias="0"
+        myview:layout_constraintWidth_default="spread" />
+
+    <ImageView
+        android:id="@+id/view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/curved_bg"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/settings_layout"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_default="spread" />
+
+    <ImageView
+        android:id="@+id/films"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:src="@drawable/selector_button_lab"
+        app:layout_constraintBottom_toBottomOf="@id/main"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_4"
+        app:layout_constraintRight_toLeftOf="@id/guideline_base2"
+        app:layout_constraintTop_toTopOf="@id/guideline_rs_bottom"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:gravity="center"
+        android:rotation="90.0"
+        android:src="@drawable/gallery_button"
+        android:text="@string/lab"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toTopOf="@id/guideline_rs_bottom"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_4"
+        app:layout_constraintRight_toLeftOf="@id/guideline_base2"
+        app:layout_constraintTop_toTopOf="@id/guideline_rs2"
+        app:layout_constraintWidth_default="spread" />
+
+    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/screen"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_ver"
+        app:layout_constraintRight_toLeftOf="@id/guideline_4"
+        app:layout_constraintTop_toTopOf="@id/guideline_base3"
+        app:layout_constraintWidth_default="wrap"
+        app:srcCompat="@drawable/viewfinder" />
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/flash_frame"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/guideline_bottom"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_flash_left"
+        app:layout_constraintRight_toLeftOf="@id/guidline_library_text_bottom"
+        app:layout_constraintTop_toTopOf="@id/guidline_flash_top"
+        app:layout_constraintWidth_default="wrap">
+
+        <ImageView
+            android:id="@+id/flash_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/selector_button_flash"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/flash"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10.0dip"
+            android:rotation="90.0"
+            android:src="@drawable/flash_off"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:lines="1"
+        android:padding="0.0dip"
+        android:rotation="90.0"
+        android:text="@string/flash"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_small"
+        app:layout_constraintBottom_toTopOf="@id/guideline_bottom"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_photo_button_right"
+        app:layout_constraintRight_toLeftOf="@id/guideline_flash_left"
+        app:layout_constraintTop_toTopOf="@id/guidline_flash_top"
+        app:layout_constraintWidth_default="wrap" />
+
+
+    <ImageButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/photo_button"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_bottom"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline_base1"
+        app:layout_constraintRight_toLeftOf="@+id/guideline_photo_button_right"
+        app:layout_constraintTop_toBottomOf="@+id/viewport"
+        app:layout_constraintWidth_default="wrap"
+        app:srcCompat="@drawable/selector_button" />
+
+    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@android:color/transparent"
+        android:id="@+id/minimize"
+        android:layout_height="0.0dip"
+        android:layout_width="0.0dip"
+        android:src="@drawable/minimize"
+        android:tint="@color/yellow"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/guideline_botton_top"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/guideline_base1"
+        app:layout_constraintTop_toTopOf="@id/guideline_base3_2"
+        app:layout_constraintWidth_default="spread" />
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@android:color/transparent"
+        android:id="@+id/camera_switch_layout"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin"
+        android:layout_width="@dimen/small_control_size"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="@id/forth_fifth"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintWidth_default="spread">
+
+        <ImageView
+            android:id="@+id/camera_switch"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:src="@drawable/switch_camera" />
+    </FrameLayout>
+
+    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin"
+        android:layout_marginLeft="5.0dip"
+        android:layout_width="@dimen/small_control_size"
+        android:src="@drawable/timer_0"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="@id/first_fifth"
+        app:layout_constraintRight_toRightOf="@id/midline"
+        app:layout_constraintWidth_default="spread" />
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settings_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin"
+        android:layout_marginLeft="5.0dip"
+        android:layout_width="@dimen/small_control_size"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/first_fifth"
+        app:layout_constraintWidth_default="spread">
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:src="@drawable/camera_settings" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lightleak_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin1"
+        android:layout_marginLeft="5.0dip"
+        android:layout_width="@dimen/small_control_size"
+        android:src="@drawable/lightleaks_on"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="@id/forth_fifth"
+        app:layout_constraintRight_toRightOf="@id/third_fifth"
+        app:layout_constraintWidth_default="spread">
+
+        <ImageView
+            android:id="@+id/lightleak"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:src="@drawable/lightleaks_on" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/timer_layout"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin1"
+        android:layout_width="@dimen/small_control_size"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintLeft_toLeftOf="@id/first_fifth"
+        app:layout_constraintRight_toRightOf="@id/second_fifth">
+
+        <ImageView
+            android:id="@+id/timer"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:src="@drawable/timer_0"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/color_filter_layout"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin2"
+        android:layout_width="@dimen/small_control_size"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintLeft_toLeftOf="@id/second_fifth"
+        app:layout_constraintRight_toRightOf="@id/third_fifth">
+
+        <ImageView
+            android:id="@+id/color_filter"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:src="@drawable/color_filter_none"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/color_filter_layout0"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin"
+        android:layout_width="@dimen/small_control_size"
+        android:padding="1.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="@id/forth_fifth"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintWidth_default="spread">
+
+        <ImageView
+            android:id="@+id/color_filter0"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:padding="1.0dip"
+            android:src="@drawable/theme_button_bw" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/color_filter_layout4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin"
+        android:layout_marginLeft="5.0dip"
+        android:layout_width="@dimen/small_control_size"
+        android:padding="1.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/first_fifth"
+        app:layout_constraintWidth_default="spread">
+
+        <ImageView
+            android:id="@+id/color_filter4"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:padding="1.0dip"
+            android:src="@drawable/ic_circle_white" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/color_filter_layout1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin1"
+        android:layout_marginLeft="5.0dip"
+        android:layout_width="@dimen/small_control_size"
+        android:padding="1.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintLeft_toLeftOf="@id/forth_fifth"
+        app:layout_constraintRight_toRightOf="@id/third_fifth"
+        app:layout_constraintWidth_default="spread">
+
+        <ImageView
+            android:id="@+id/color_filter1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:padding="1.0dip"
+            android:src="@drawable/theme_button_vi" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/color_filter_layout3"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin1"
+        android:layout_width="@dimen/small_control_size"
+        android:padding="1.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintLeft_toLeftOf="@id/first_fifth"
+        app:layout_constraintRight_toRightOf="@id/second_fifth">
+
+        <ImageView
+            android:id="@+id/color_filter3"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:padding="1.0dip"
+            android:src="@drawable/theme_button_kj"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/color_filter_layout2"
+        android:layout_height="@dimen/small_control_size"
+        android:layout_marginBottom="@dimen/small_control_margin2"
+        android:layout_width="@dimen/small_control_size"
+        android:padding="1.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/viewport"
+        app:layout_constraintLeft_toLeftOf="@id/second_fifth"
+        app:layout_constraintRight_toRightOf="@id/third_fifth">
+
+        <ImageView
+            android:id="@+id/color_filter2"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:padding="1.0dip"
+            android:src="@drawable/theme_button_kd"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <ImageView
+        android:background="@color/white"
+        android:id="@+id/front_flash_screen"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:visibility="gone" />
+
+</android.support.constraint.ConstraintLayout>
